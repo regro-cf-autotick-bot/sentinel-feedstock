@@ -1,5 +1,5 @@
 {% set name = "sentinel" %}
-{% set version = "0.3.0" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sentinel-{{ version }}.tar.gz
-  sha256: f28143aa4716dbc8f6193f5682176a3c33cd26aaae05d9ecf66c186a9887cc2d
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sentinel-{{ version }}.tar.gz
+  sha256: 190928f9951af6e94a1f84eefcaed791c28097dd152b88e988906be300451fd2
 
 build:
   number: 0
